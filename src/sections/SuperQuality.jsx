@@ -14,9 +14,9 @@ export default function SuperQuality() {
           <span className="text-coral-red"> Quality</span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Ensuring premium comfort and style, our meticulosly crafted fotwear is
-          designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+          Step into luxury with our meticulously crafted footwear, designed to
+          elevate your experience with premium comfort, style, and unmatched
+          quality.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to detail and excellence ensres your satisfaction
