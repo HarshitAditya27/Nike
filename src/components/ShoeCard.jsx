@@ -8,7 +8,9 @@ function ShoeCard({ imageURL, changeBigShoeImage, bigShoeImg }) {
   return (
     <div
       className={`border-2 rounded-xl ${
-        bigShoeImg === imageURL ? "border-coral-red" : "border-transparent"
+        bigShoeImg === imageURL.bigShoe
+          ? "border-coral-red"
+          : "border-transparent"
       } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}
     >

@@ -1,10 +1,11 @@
 import {
-  facebook,
-  instagram,
+  github,
+  linkedin,
   shieldTick,
   support,
   truckFast,
   twitter,
+  dev,
 } from "../assets/icons";
 import {
   bigShoe1,
@@ -53,25 +54,25 @@ export const products = [
   {
     imageURL: shoe4,
     name: "Nike Air Jordan-01",
-    price: "$200.20",
+    price: "₹ 8 295.00",
     rating: 4,
   },
   {
     imageURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    name: "Air Jordan 2",
+    price: "₹ 19 695.00",
     rating: 4.2,
   },
   {
     imageURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    name: "Nike Air Jordan-13 Retro",
+    price: "₹19,295",
     rating: 4.5,
   },
   {
     imageURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    name: "Nike Air Jordan 1 Next Chapter",
+    price: "₹ 25 395.00",
     rating: 5,
   },
 ];
@@ -98,17 +99,17 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
+    customerName: "Mahendra Singh Dhoni",
     rating: 4.5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "When it comes to stepping onto the field, I've always been meticulous about choosing my gear. After all, cricket isn't just a game; it's a way of life. So when I was introduced to Nike's latest line of sports shoes, it felt like destiny had handed me a new set of tools to conquer the cricketing world.",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Lionel Messi",
+    rating: 4.8,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "As a footballer, I've always sought perfection in every aspect of my game, from my dribbling to my finishing. The right footwear is a crucial part of that equation, and I've had the privilege of experiencing Nike's incredible range of shoes. These shoes have truly elevated my performance and comfort on the pitch, and I'm excited to share my thoughts.",
   },
 ];
 
@@ -137,14 +138,34 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      {
+        name: "harshitaditya27@gmail.com",
+        link: "mailto:harshitaditya27@gmail.com",
+      },
+      { name: "+123456789", link: "#" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  {
+    src: github,
+    alt: "github logo",
+    href: "https://github.com/HarshitAditya27",
+  },
+  {
+    src: twitter,
+    alt: "twitter logo",
+    href: "https://twitter.com/HarshitAditya1",
+  },
+  {
+    src: linkedin,
+    alt: "linkedin logo",
+    href: "https://www.linkedin.com/in/harshitaditya/",
+  },
+  {
+    src: dev,
+    alt: "dev logo",
+    href: "https://dev.to/harshitaditya1",
+  },
 ];

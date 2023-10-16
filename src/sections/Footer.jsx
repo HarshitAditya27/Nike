@@ -20,7 +20,9 @@ export default function Footer() {
                 key={icon.alt}
                 className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <a href={icon.href}>
+                  <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                </a>
               </div>
             ))}
           </div>
@@ -37,7 +39,7 @@ export default function Footer() {
                     key={link.name}
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                   >
-                    <a>{link.name}</a>
+                    <a href={link.link}>{link.name}</a>
                   </li>
                 ))}
               </ul>
@@ -54,9 +56,12 @@ export default function Footer() {
             height={20}
             className="rounded-full m-0"
           />
-          <p>Cpyright. All rights reserved</p>
+          <p>Copyright. All rights reserved</p>
         </div>
-        <p className="font-montserrat cursor-pointer">Terms & Cnditions</p>
+        <p className="font-montserrat cursor-pointer">
+          Made by{" "}
+          <a href="https://github.com/HarshitAditya27">Harshit Aditya</a> ✨
+        </p>
       </div>
     </footer>
   );
