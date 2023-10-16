@@ -3,6 +3,10 @@
 Deployed Link: https://nike-navy-seven.vercel.app/ 
 
 
+![Screenshot (383)](https://github.com/HarshitAditya27/Nike/assets/71604531/08582c7d-cc30-49d8-8356-d70ab3a85866)
+
+
+
 ## Introduction 🐱‍💻
 
 - Created a landing page for the Nike website using TailwindCSS, HTML, JavaScript, and React. **This website is primarily built using TailwindCSS**. 
@@ -47,13 +51,21 @@ npm init -y
   ```
 npm run dev 
 ``` 
-  Step 6: To run the project on your local machine, you need to go to your local server which is running on port 3000. Go to the browser and paste the link given below 👇: 
+  Step 6: To run the project on your local machine, you need to go to your local server which is running on port 5173. Go to the browser and paste the link given below 👇: 
   
   ```
  http://localhost:5173/
 
 ``` 
-  ## Screenshots   
+  ## Screenshots    
+
+![Screenshot (384)](https://github.com/HarshitAditya27/Nike/assets/71604531/89bcf097-438e-4717-8aec-9631ce2796ce) 
+![Screenshot (386)](https://github.com/HarshitAditya27/Nike/assets/71604531/adf474a0-d525-485c-bdeb-e4366b998e79)
+![Screenshot (387)](https://github.com/HarshitAditya27/Nike/assets/71604531/33fe053f-3344-40df-ba49-4404a1db7481)
+
+![Screenshot (388)](https://github.com/HarshitAditya27/Nike/assets/71604531/2853b2a7-7232-496e-b52f-c17bbdd047e0)
+
+
   
 
   ## Loved the project 💖? 
